@@ -555,6 +555,9 @@ Install a C/C++ build environment such as Microsoft Visual
 Studio 2012.  Compilers supported by Oracle libraries are found in
 [Oracle documentation](https://docs.oracle.com/en/database/) for each version, for example
 [Oracle Database Client Quick Installation Guide 12c Release 1 (12.1) for Microsoft Windows x64 (64-Bit)](https://docs.oracle.com/database/121/NXCQI/toc.htm#NXCQI108).
+If you are building the add-on with Node 4.x+, Visual Studio 2013 is required at minimum due to the C++ 11 features that are required. 
+[C++ Feature comparison of Visual Studio](https://msdn.microsoft.com/en-us/library/hh567368.aspx)
+
 
 Install the Python 2.7 MSI from
 [www.python.org](https://www.python.org/downloads).  Select the
